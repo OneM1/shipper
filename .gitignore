@@ -1,0 +1,98 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+backend/.env.example
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+dist-ssr/
+*.local
+
+# Frontend build
+frontend/dist/
+frontend/build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite3
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Internal documentation and files
+AGENTS.md
+GITHUB_PUSH_STEPS.md
+PRD.md
+test_integration.py
+
+# Test data - EXCLUDE everything except these 4 files:
+# - testdata/01_valid_invoice.pdf
+# - testdata/01_valid_packing_list.pdf
+# - testdata/real_invoice_01.pdf
+# - testdata/real_packing_01.pdf
+testdata/*
+!testdata/01_valid_invoice.pdf
+!testdata/01_valid_packing_list.pdf
+!testdata/real_invoice_01.pdf
+!testdata/real_packing_01.pdf
+
+# Unused files
+backend/README.md
+backend/app/utils/
+backend/tests/
