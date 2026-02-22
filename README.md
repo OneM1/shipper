@@ -3,6 +3,7 @@
 **Document Compliance Checker for Exporters**
 
 Document compliance checker for Chinese exporters shipping to US/EU. Catches documentation errors before shipments leave port.
+![Alt text](dashboard.jpeg)
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.109%2B-green)](https://fastapi.tiangolo.com)
